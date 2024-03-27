@@ -5,6 +5,7 @@ log into AWS
 git clone into a repository (eg. lab-2)
 
 
+
 type in: 
 
 sudo mkdir /var/www/html/lab-2
