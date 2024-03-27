@@ -1,19 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
 <head>
-    <title>Mastermind Game</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
-</head>
-<body>
-    <div class="container">
-        <h1>Mastermind</h1>
-        <p>Guess the 4-color code (R = Red, G = Green, B = Blue, Y = Yellow)!</p>
-        <div class="guess-area">
-            <input type="text" id="guessInput" maxlength="4">
-            <button onclick="checkGuess()">Check</button>
-        </div>
-        <div id="feedback"></div>
-    </div>
+    <title>Mastermind</title>
+    <link rel="stylesheet" href="style.css">
     <script src="game.js"></script>
+</head>
+
+<body>
+    <div class="content">
+        <div class="fullBoard">
+            <div class="board"></div>
+            <div class="peg"></div>
+        </div>
+            <div class="colorBoard">
+                <div class="button" id="red"></div>
+                <div class="button" id="orange"></div>
+                <div class="button" id="yellow"></div>
+                <div class="button" id="green"></div>
+                <div class="button" id="blue"></div>
+                <div class="button" id="violet"></div>
+            </div> 
+            <div class="submit" id="submit">Submit</div>
+        </div>
+    </div>
 </body>
-</html>
